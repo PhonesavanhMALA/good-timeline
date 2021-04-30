@@ -12,8 +12,3 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
-    # app.config["TEMPLATES_AUTO_RELOAD"] = True
-    # port_number = 2020
-    # webbrowser.open(f'http://127.0.0.1:{port_number}')
-    # app.run(threaded=True, port=port_number, debug=True)
-    # run_simple('localhost', port_number, app, threaded=True)
